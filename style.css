@@ -1,0 +1,329 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  max-width: 75vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+nav img {
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+nav .nav-button {
+  position: relative;
+  z-index: 10;
+}
+
+.lang-select {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  height: 2rem;
+  width: 115px;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 2px;
+  margin-right: 1.2rem;
+}
+.lang-opt {
+  color: black;
+}
+.signin-button {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  height: 2rem;
+  width: 80px;
+  border: 0px;
+  border-color: rgb(229, 9, 20);
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.main {
+  background-image: url("images/net_back.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1250px, 100vw);
+  height: 700px;
+  background-color: black;
+  position: relative;
+}
+.main .box {
+  height: 700px;
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.85)
+  );
+}
+.intro-text {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.intro-text .line-1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.intro-text .line-2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.intro-text .line-3 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.user-mail {
+  margin-top: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.user-mail > input {
+  height: 3.25rem;
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  padding-left: 1rem;
+  position: relative;
+
+  color: white;
+}
+
+.user-mail button {
+  background-color: rgb(229, 9, 20);
+  height: 3.25rem;
+  width: 200px;
+  color: white;
+  font-size: 1.5rem;
+  border: 0px;
+  border-radius: 0.25rem;
+  margin-bottom: 0px;
+}
+.user-mail button img {
+  padding-left: 4px;
+}
+
+.boxes {
+  max-width: max(1200px, 100vw);
+  border: 0px;
+  border-top: 0.5rem solid rgb(45, 45, 45);
+  height: 30rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  color: white;
+  padding: 2rem 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes-text {
+  width: 40vw;
+}
+
+.tv h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.tv p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-right: 2rem;
+}
+
+.tv-inner img {
+  float: right;
+  z-index: 10;
+  position: relative;
+  width: 38vw;
+}
+
+.tv-inner video {
+  position: absolute;
+  width: 28vw;
+  z-index: 5;
+  left: 57%;
+  top: 23%;
+  height: 50%;
+}
+
+.download .boxes-text {
+  max-width: 40vw;
+  margin-right: 1rem;
+}
+.download h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+.download p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-right: 1rem;
+}
+.download img {
+  width: 40vw;
+  height: 50%;
+}
+.devices .boxes-text {
+  max-width: 40vw;
+  margin-right: 1rem;
+}
+.devices h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.devices p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.devices img {
+  position: relative;
+  width: 36vw;
+  z-index: 10;
+}
+
+.devices video {
+  position: absolute;
+  right: 17.3%;
+  width: 23.5vw;
+  top: 21%;
+}
+.kids-text {
+  margin: auto;
+  margin-left: 2rem;
+  padding-right: 3rem;
+}
+.kids h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.kids p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.kids img {
+  width: 38vw;
+  margin-left: 6vw;
+}
+
+.freq {
+  max-width: max(1200px, 100vw);
+  border: 0px;
+  border-top: 0.5rem solid rgb(45, 45, 45);
+  height: 40rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  color: white;
+  padding: 4rem 5rem;
+}
+
+.freq h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.freq-que {
+  margin: 0px 7vw;
+  max-width: 72vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.que:hover {
+  background-color: rgb(73, 73, 73);
+}
+.que {
+  transition: all 0.5s ease-out;
+  background-color: rgb(45, 45, 45);
+  width: 100%;
+  color: white;
+  height: 3.2rem;
+  padding: 1rem;
+
+  align-self: center;
+}
+
+.que h6 {
+  height: 100%;
+  width: 100%;
+  padding-top: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  align-items: center;
+}
+
+.que h6 img {
+  height: 40px;
+  width: 40px;
+  margin-right: 0px;
+  float: right;
+}
+footer {
+  color: lightgray;
+  font-size: 0.9rem;
+  margin: auto;
+}
+
+.foot {
+  height: 30vh;
+  display: block;
+  padding: 0px 7vw;
+  padding-top: 3rem;
+}
+.footer-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  margin: 2rem 0rem;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-item > a {
+  color: lightgray;
+}
